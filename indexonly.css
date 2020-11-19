@@ -1,0 +1,45 @@
+.mypicture {
+    float: left;
+    margin-left: 30px;
+    margin-right: 50px;
+    border: solid rgb(93, 91, 91) 5px;
+    border-radius: 20px;
+    width: 45%;
+    height: 45%;
+}
+
+p.intro {
+    font-size: 1.25em;
+    padding: 20px;
+    margin-top: 40px;
+    margin-right: 10%;
+    margin-left: 60%;
+    text-align: center;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+table {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+img {
+    width: 300px;
+    height: 211px;
+    object-fit: cover;
+    border: solid white 5px;
+    border-radius: 20px;
+}
+
+caption {
+    letter-spacing: 18px;
+    font-size: 4em;
+    color: white;
+    margin: 0;
+    text-align: center;
+    text-shadow: .05em .01em black;
+    font-family: 'Kanit', sans-serif;
+}

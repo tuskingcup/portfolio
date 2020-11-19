@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Kanit;
+    src: url(https://fonts.googleapis.com/css2?family=Kanit&display=swap);
+    /* อาไว้เปลี่ยน font อ.เกรียงไกรส่งมา */
+}
+
+body {
+    background-color: midnightblue;
+    background-image: url(../images/background30.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+li.nav:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #fff;
+    transform: scaleX(0);
+    transition: 350ms;
+}
+
+li.nav:hover:after {
+    transform: scaleX(1);
+}
+
+div#title {
+    background-color: rgb(9, 9, 61);
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    font-family: 'Kanit', sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(93, 91, 91);
+    transition: 0.5s;
+}
+
+li a.active:hover {
+    background-color: rgb(34, 15, 174);
+    transition: 0.5s;
+}
+
+.active {
+    background-color: rgb(3, 31, 66);
+}
+
+h3 {
+    color: floralwhite;
+    text-align: center;
+}
+
+h3#underTopic {
+    letter-spacing: 24px;
+    margin: 0;
+    text-shadow: .1em .1em .05em black;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1#topic {
+    letter-spacing: 18px;
+    font-size: 5em;
+    color: gold;
+    margin: 0;
+    text-align: center;
+    text-shadow: .05em .01em tomato;
+    font-family: 'Kanit', sans-serif;
+}
+
+p {
+    font-size: 1.25em;
+    color: floralwhite;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: .1em .1em .05em black;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.foot {
+    clear: both;
+    background-color: rgb(9, 9, 61);
+    text-align: center;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,9 @@
+ul#navbar+h1 {
+    letter-spacing: 18px;
+    font-size: 4em;
+    color: white;
+    margin: 0;
+    text-align: center;
+    text-shadow: .05em .01em black;
+    font-family: 'Kanit', sans-serif;
+}
